@@ -25,6 +25,15 @@ packages/backend/functions/*.log
 # Firebase emulator state
 .firebase/
 
+# Service account / secret keys (IMPORTANT)
+*serviceAccount*.json
+*adminsdk*.json
+*.credentials.json
+*secret*.json
+*secrets*.json
+*.private.json
+*.local.json
+
 # Node dependencies
 **/node_modules/
 
@@ -56,3 +65,4 @@ Thumbs.db
 bower_components/
 build/Release/
 *.tgz
+firestore-export/
